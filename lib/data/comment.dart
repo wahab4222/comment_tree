@@ -5,10 +5,12 @@ class Comment {
   String? avatar;
   String? userName;
   String? content;
+  DateTime? createAt;
 
   Comment({
     required this.avatar,
     required this.userName,
     required this.content,
+    this.createAt
   });
 }
