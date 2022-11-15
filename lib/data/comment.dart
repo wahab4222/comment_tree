@@ -8,6 +8,7 @@ class Comment {
   String commentId;
   String replyId;
   String productId;
+  String userId;
   DateTime? createAt;
 
   Comment({
@@ -17,6 +18,7 @@ class Comment {
     required this.commentId,
     required this.productId,
     required this.replyId,
+    required this.userId,
     this.createAt
   });
 }
