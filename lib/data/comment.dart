@@ -10,6 +10,7 @@ class Comment {
   String productId;
   String userId;
   DateTime? createAt;
+  dynamic timeStamp;
 
   Comment({
     required this.avatar,
@@ -19,6 +20,7 @@ class Comment {
     required this.productId,
     required this.replyId,
     required this.userId,
+    required this.timeStamp,
     this.createAt
   });
 }
